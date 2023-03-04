@@ -1,0 +1,8 @@
+---
+title: "Basicpage"
+date: 2023-03-04T19:07:26+01:00
+---
+
+A basic example page!
+
+{{< lazyimg img="images/cat.png" >}}

@@ -1,0 +1,21 @@
+== HUGO + Asciidoc + Lazyimg
+
+=== Dependencies
+
+----
+go
+hugo
+----
+
+=== Try it out
+
+[,bash]
+----
+git clone https://github.com/timeopochin/hugoasciidoclazyimg.git
+cd hugoasciidoclazyimg
+hugo serve
+----
+
+=== Links
+
+https://github.com/hugo-mods/lazyimg[Lazyimg]

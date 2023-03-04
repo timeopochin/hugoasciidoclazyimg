@@ -1,0 +1,25 @@
+baseURL = 'https://timeopochin.github.io/hugoasciidoclazyimg'
+languageCode = 'fr-fr'
+title = 'HUGO + Asciidoc + Lazyimg'
+
+# Asciidoc and semantic html5
+# More info on the config:
+#   https://gohugo.io/content-management/formats/#external-helper-asciidoctor
+
+[markup.asciidocExt]
+extensions = ['asciidoctor-html5s']
+backend = 'html5s'
+
+# Allow access to Asciidoctor
+# More info:
+#   https://gohugo.io/about/security-model/#security-policy
+
+[security.exec]
+allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+
+# Responsive images
+# More info on the module:
+#   https://github.com/hugo-mods/lazyimg
+
+[[module.imports]]
+path = 'github.com/hugo-mods/lazyimg'
