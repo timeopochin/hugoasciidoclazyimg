@@ -1,0 +1,19 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Hides images to be loaded with JS when it is disabled */
+.no-js img.lazyload {
+  display: none;
+}
+
+/* Hides broken image icon which may shortly be disaplayed on load */
+img.lazyload:not([src]) {
+	visibility: hidden;
+}
